@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import coverImage from "../../src/cover-image.jpg"
+import coverImage from "../../src/assets/cover-image.jpg"
 
 class About extends Component {
   render() {

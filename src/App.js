@@ -6,7 +6,8 @@ function App() {
   return (
     <div>
       <main>
-        <About></About>
+      <Link to="/aboutme">About Me</Link>
+      <Link to="/contact">Contact</Link>
       </main>
     </div>
   );
