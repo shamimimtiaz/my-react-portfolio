@@ -92,25 +92,26 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "white",
+    color: "black",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
   subHeading: {
-    color: "#fff",
+    color: "black",
     padding: 0,
     textTransform: "uppercase",
   },
   body1: {
-    color: "#fff",
+    color: "black",
   },
   subtitle1: {
-    color: "white",
+    color: "black",
   },
 }));
 
 const Resume = () => {
   const classes = useStyles();
+  
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
@@ -231,6 +232,7 @@ const Resume = () => {
         </Box>
       </Box>
     </Box>
+    
   );
 };
 
