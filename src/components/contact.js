@@ -6,7 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
- 
+
 
 class Contact extends Component {
  state ={
@@ -92,9 +92,11 @@ render() {
     </Box>
     </Grid>
     </Box>
+    
   )
  }
 };
+                
 
 
 export default Contact;
