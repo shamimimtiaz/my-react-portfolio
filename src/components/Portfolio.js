@@ -10,10 +10,10 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript.png";
-import project2 from "../images/html-css-javascript-lg.png";
-import project3 from "../images/javascript-fullstack.png";
-import project4 from "../images/mern-stack.png";
+import project1 from "../images/html-css-javascript.JPG";
+import project2 from "../images/html-css-javascript-lg.PNG";
+import project3 from "../images/javascript-fullstack.PNG";
+import project4 from "../images/mern-stack.PNG";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -28,36 +28,40 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Horeison",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
     consequatur magni quod nesciunt necessitatibus molestiae non
     eligendi, magnam est aliquam recusandae? Magnam soluta minus
     iste alias sunt veritatis nisi dolores!`,
     image: project1,
+    link: "https://shamimimtiaz.github.io/HoriseonMVP/Develop/index.html"
   },
   {
-    name: "Project 2",
+    name: "Run-Buddy",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project2,
+    link: "https://shamimimtiaz.github.io/run-buddy/"
   },
   {
-    name: "Project 3",
+    name: "Screen Genius",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project3,
+    link: "https://screen-genius.github.io/"
   },
   {
-    name: "Project 4",
+    name: "Envoy Product",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project4,
+    link: "https://envoy-guide.herokuapp.com/"
   }
   
   
@@ -86,14 +90,17 @@ const Portfolio = () => {
                   <Typography variant="body2" color="textSecondary">
                     {project.description}
                   </Typography>
+                  <Typography variant="body3" color="textSecondary">
+                    <a href = {project.link}> Project link </a>
+                  </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button size="small" color="primary" a href="https://github.com/shamimimtiaz">
+                  Github
                 </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                <Button size="small" color="primary" a href="https://www.linkedin.com/in/shamim-imtiaz/">
+                  LinkeDin
                 </Button>
               </CardActions>
             </Card>

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Route, Switch } from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Home from "./components";
@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
+
+//import React from "react";
 import "./App.css";
 
 function App() {

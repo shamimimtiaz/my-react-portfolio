@@ -1,0 +1,31 @@
+   .contactContainer {
+         background: #fff;
+        height: 100vh
+       }
+       .heading {
+         color:Black;
+         text-align: center;
+         text-transform: uppercase;
+         margin-bottom: 1rem
+       }
+      .form {
+         top: "50%";
+         left: "50%";
+         transform: translate(-50%, -50%);
+         position: absolute
+       }
+      .input{
+         color: #fff
+       }
+       .button {
+         margin-top: 5rem;
+        color: white;
+         border-color: #fff
+       }
+       .field {
+         margin: 1rem 0rem
+      }
+
+
+      
+     

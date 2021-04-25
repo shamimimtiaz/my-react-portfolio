@@ -5,13 +5,13 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
-import avatar from "../avatar.png";
+import avatar from "../images/avatar.jpg";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
-    margin: theme.spacing(1),
+    width: theme.spacing(25),
+    height: theme.spacing(25),
+    margin: theme.spacing(3),
   },
   title: {
     color: "#fff",
